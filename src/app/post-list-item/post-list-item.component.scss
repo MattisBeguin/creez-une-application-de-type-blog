@@ -1,0 +1,25 @@
+h3 {
+  float: left;
+  margin: 0;
+}
+
+time {
+  float: right;
+  color: grey;
+}
+
+p {
+  margin: 10px 0px 10px 0px;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.btn-success {
+  margin: 0px 2px 0px 0px;
+}
+
+.btn-danger {
+  margin: 0px 0px 0px 2px;
+}
