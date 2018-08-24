@@ -1,4 +1,4 @@
-h3 {
+h2 {
   float: left;
   margin: 0;
 }
@@ -12,14 +12,20 @@ p {
   margin: 10px 0px 10px 0px;
 }
 
-button:focus {
+.btn:focus {
   outline: 0;
 }
 
 .btn-success {
+  float: left;
   margin: 0px 2px 0px 0px;
 }
 
-.btn-danger {
+.dislike {
+  float: left;
   margin: 0px 0px 0px 2px;
+}
+
+.delete {
+  float: right;
 }
