@@ -13,7 +13,7 @@ import { PostService } from './services/post.service';
 const appRoutes: Routes = [
   { path: 'posts', component: PostListComponent },
   { path: 'new', component: NewPostComponent },
-  { path: '', component: PostListComponent }
+  { path: '', redirectTo: 'posts', pathMatch: 'full' },
 ];
 
 @NgModule({
